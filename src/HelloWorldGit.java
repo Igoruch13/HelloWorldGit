@@ -6,7 +6,7 @@ public class HelloWorldGit {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int chuslo = 0;
+        int chuslo;
         int kilkistSprob = 0;
         do {
             try {
@@ -15,7 +15,7 @@ public class HelloWorldGit {
                 System.out.println("Ви ввели число:" + chuslo);
             } catch (Exception catchException) {
                 System.out.println("Такого робити неможна!!!");
-                chuslo = 0;
+                chuslo = 1;
             }
             kilkistSprob++;
             System.out.println("Спроба №:" + kilkistSprob);
